@@ -1,0 +1,68 @@
+.App {
+  font-family: "inconsolata", monospace;
+  text-align: center;
+}
+
+.left {
+  margin-left: 16px;
+  text-align: left;
+}
+
+.text {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.pitch-box {
+  border-style: dotted;
+  position: relative;
+  margin-left: 16px;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 0px;
+}
+
+.dropdown {
+  margin: 16px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.ball {
+  opacity: 0.8;
+  fill: white;
+  stroke: red;
+}
+
+.focused-ball {
+  fill: pink;
+  stroke: red;
+  stroke-width: 2;
+}
+
+.ball:hover {
+  fill: pink;
+  stroke: red;
+  stroke-width: 2;
+}
+
+.tooltip {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  border: 1px solid black;
+  font-family: "inconsolata", monospace;
+  font-size: 12px;
+  width: 180px;
+}
+
+.label {
+  font-size: 12px;
+}
